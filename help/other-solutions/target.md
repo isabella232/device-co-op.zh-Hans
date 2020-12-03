@@ -1,58 +1,61 @@
 ---
-description: 了解如何在Adobe Target活动中使用设备协作数据。
-seo-description: 了解如何在Adobe Target活动中使用设备协作数据。
+description: 了解如何在Adobe Target活动使用设备合作数据。
+seo-description: 了解如何在Adobe Target活动使用设备合作数据。
 seo-title: 目标- A/B测试、多变量测试和体验定位
 title: 目标- A/B测试、多变量测试和体验定位
 uuid: c1b478a4-812e-41ee-913f-29666c5c7ec4
 translation-type: tm+mt
 source-git-commit: c1d0bc05d3f211fa3e899e98fbcc908be7399031
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 0%
 
 ---
 
 
-# Target - A/B tests, multivariate tests, and experience targeting{#target-a-b-tests-multivariate-tests-and-experience-targeting}
+# 目标- A/B测试、多变量测试和体验定位{#target-a-b-tests-multivariate-tests-and-experience-targeting}
 
-了解如何在Adobe Target活动中使用设备协作数据。
+了解如何在Adobe Target活动使用设备合作数据。
 
-您可以在A/B测试、多变量(MVT)测试和体验定位活动中使用设备协作数据。 The Device Co-op option is available during activity creation on the [!DNL Goals & Settings] page in the [!DNL Target] three-step guided workflow.
+您可以在A/B测试、多变量(MVT)测试和体验定位活动中使用设备合作数据。 The Device Co-op option is available during activity creation on the [!DNL Goals & Settings] page in the [!DNL Target] three-step guided workflow.
 
-您不能在以下活动中使用设备协作数据：自动个性化活动、推荐活动，或者将 [!DNL Adobe Analytics] 用作报表源的活动（例如 [!DNL Target] 和 [!DNL Analytics] 集成，即 A4T）。
+您不能在Automated Personalization活动、推荐活动或活动中使用设 [!DNL Adobe Analytics] 备合作数据作为报告源 [!DNL Target] ( [!DNL Analytics] 和集成，称为A4T)。
 
 >[!NOTE]
 >
->Ensure that you have the required version of `mbox.js`. 您可以使用任意版本的 `at.js`。有关详细信息，请参阅会 [员资格要求](../about/requirements.md#concept-31d3d165d22546afbedf023d32ad3a43)。
+>确保您拥有所需的版本 `mbox.js`。 您可以使用的任何版本 `at.js`。 有关详细信息，请参阅 [会员资格要求](../about/requirements.md#concept-31d3d165d22546afbedf023d32ad3a43)。
 
-## Deliver relevant content regardless of the device {#section-bba8d41e96914c82a6d267a54f776354}
+## 提供相关内容，无论使用何种设备 {#section-bba8d41e96914c82a6d267a54f776354}
 
-营销人员希望向每位访客提交相关度最高的体验，而不考虑访客当前用来与营销人员公司或品牌进行交互的设备。
+营销人员希望为每位访客提供最相关的体验，而不管访客当前使用何种设备与其公司或品牌进行互动。
 
-用户从许多不同设备（例如工作笔记本电脑、家用计算机、iPad、iPhone、各种浏览器等）与同一个公司或品牌进行交互。如果您无法识别之前在其他设备或浏览器上与您的品牌进行交互的同一个人员使用的每个特定设备或浏览器，您将无法向该人员提供一致的定位体验。
+用户与来自许多不同设备的相同公司或品牌进行交互：工作用笔记本电脑、家用计算机、iPad、iPhone、各种浏览器等。 如果您无法识别之前在其他设备或浏览器上与您的品牌互动的同一个人正在使用每个特定设备或浏览器，则无法向该人提供一致且有针对性的体验。
 
-使用设备协作后，可以将用户的不同设备识别为同一个用户使用。When that user sees a page with [!DNL Target] activities—either activities or targeted content— [!DNL Target] can ensure that the user sees the same experience seen on another device.
+通过设备合作社，用户的各种设备可标识为由同一用户使用。 当用户看到包含活动的页 [!DNL Target] 面(活动或目标内容)时， [!DNL Target] 可以确保用户看到在其他设备上看到的相同体验。
 
-## Analyze Target activities by people instead of by visitors {#section-c25cf4f8483942d7836d60756235e62c}
+## 按人员而非目标分析活动 {#section-c25cf4f8483942d7836d60756235e62c}
 
-Marketers want to analyze [!DNL Target] activities by “people” instead of “visitors.”
+营销人员希望按 [!DNL Target] “人”而非“访客”分析活动。
 
-Each person is likely interacting with the same company or brand across devices and browsers, but without the Device Co-op, each individual device or browser is considered a separate “visitor” in [!DNL Target] reports.
+每个人可能会跨设备和浏览器与同一公司或品牌进行交互，但如果没有设备合作计划，每个设备或浏览器在报告中都会被视为单独的“访客” [!DNL Target] 。
 
-按单个设备和浏览器查看报表可能会夸大“访客”计数，所得人数大于与公司或品牌进行交互的不同人数。这些人员通常通过不同设备和浏览器仅转换一次，因此转换率将会低于实际情况，因为很多“访客”被计为一次转换。
+按个别设备和浏览器查看报告会将“访客”计数放大到比与公司或品牌交互的不同人数更多的数字。 这些人通常只在这些不同设备和浏览器之间进行一次转化率，因此访客将低于实际，因为单次转换需要计算更多的“”。
 
-使用设备协作后，内容提交和报告是在“人员”级别完成的，因此报表可以准确显示查看活动的人数和转换人数。
+借助设备合作社，内容投放和报告在“人员”级别进行，因此报告可以准确地显示有多少不同的人看到了活动以及有多少人转化了。
 
-虽然在没有设备协作数据的情况下，您也可以确定哪个活动是入选方；但在使用设备协作后，报表更加准确，另一个活动的转换率实际上可能更高，因此这个活动才是入选方。
+如果没有设备合作活动，您可以确定特定客户是赢家；但是，由于报告在设备合作社方面更加准确，因此其他活动实际上可能拥有更高的转化率，因此成为赢家。
 
-有关这个概念的更多信息，请参阅 分 [析：人员指标](../other-solutions/people.md#concept-8c57cd3904974e078d7fbf84ac9c2d63)。
+有关此概念的更多信息，请参阅 [分析：人员指标](../other-solutions/people.md#concept-8c57cd3904974e078d7fbf84ac9c2d63)。
 
-## Use Device Co-op data per activity {#section-fb46fae482654023abb1a1e26564db9a}
+## 按活动使用设备合作数据 {#section-fb46fae482654023abb1a1e26564db9a}
 
-营销人员可以选择使用每个活动的设备写作数据。Certain [!DNL Target] activities might not be appropriate for Device Co-op data, such as:
+营销人员可以选择按活动使用设备合作社数据。 某 [!DNL Target] 些活动可能不适合设备合作社数据，例如：
 
-* 适合 iPad 用户访问的特定内容。
+* 适用于iPad上用户的特定内容。
 
-   对于首先在 iPad 上查看体验的用户，在家用计算机上仍可以感受到相同的查看体验。
+   首先在iPad上视图体验的用户将继续在家用计算机上查看该体验。
 
-* 仅适用于严格访客区段的利率选件。
-* 仅允许在特定情况下宣传广告的产品（例如，具有许可限制的保险单）。
+* 利率优惠仅适用于严格访客。
+* 仅允许在特定状态下发布产品（例如，具有许可限制的保险单）。
 
-当营销人员在 [!DNL Target] 中创建受众时，如果受众不适用于开启设备协作数据的活动，则营销人员会收到警报。适用受众包括所有访客、新访客和回访访客。
+当营销人员在中创建受众 [!DNL Target]时，如果受众不适用于支持设备合作社数据的活动，则会提醒他们。 适当的受众包括所有访客、新访客和返回访客。
