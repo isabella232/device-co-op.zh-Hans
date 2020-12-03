@@ -1,24 +1,27 @@
 ---
-description: 您的公司必须符合这些最低标准，然后才能使用Experience Cloud Device Co-op进行开始。
-seo-description: 您的公司必须符合这些最低标准，然后才能使用Experience Cloud Device Co-op进行开始。
+description: 您的公司必须符合这些最低标准，然后才能使用Experience Cloud设备合作社进行开始。
+seo-description: 您的公司必须符合这些最低标准，然后才能使用Experience Cloud设备合作社进行开始。
 seo-title: 会员资格要求
 title: 会员资格要求
 uuid: 4295fa4e-1b9e-4323-bb79-48e548ca1167
 translation-type: tm+mt
 source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 15%
 
 ---
 
 
 # 会员资格要求{#membership-requirements}
 
-您的公司必须符合这些最低标准，然后才能使用Experience Cloud Device Co-op进行开始。
+您的公司必须符合这些最低标准，然后才能使用Experience Cloud设备合作社进行开始。
 
 ## 要求 {#section-9cbcee3c7b4e4c49b4c0e2b26aec5fe9}
 
-和你谈谈 [!DNL Adobe representative to get started]。 如果您没有Adobe代表，请访问设备 [合作社会员门户](http://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) ，并填写在线表单。
+和你谈谈 [!DNL Adobe representative to get started]。 如果您没有Adobe代表，请访问设 [备合作会员门户](http://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) ，并填写在线表单。
 
-如果Adobe确定潜在客户参与Device Co-op可能(1)违反任何适用法律，Adobe保留拒绝任何潜在客户加入Experience Cloud Device Co-op的权利； 或(2)对Adobe或其任何客户的安全或运营造成重大风险。
+Adobe保留拒绝任何潜在客户加入Experience Cloud设备合作社的权利，前提是Adobe确定潜在客户参加设备合作社可能(1)违反任何适用法律；或(2)对Adobe或其任何客户的安全或经营造成重大风险。
 
 ## Experience Cloud要求 {#section-76218a50385d43e6b9323e49f598394a}
 
@@ -35,7 +38,7 @@ source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
 
 **核心服务**
 
-申请人必须实 [施Experience Cloud ID服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。
+申请人必须实 [施Experience CloudID服务](https://docs.adobe.com/content/help/zh-Hans/id-service/using/home.html)。
 
 ## Adobe代码库要求 {#section-931a3fca1ce54afd90b88ba032e75f05}
 
@@ -47,11 +50,11 @@ source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
 
 **AppMeasurement(Flash)**
 
-需要版本4.1。请参 [阅AppMeasurement for Flash、Flex和AIR](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md)。
+需要版本4.1。请参 [阅AppMeasurement for](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md)AppMeasurement forFlash、Flex和AIR。
 
 **AppMeasurement(JavaScript)**
 
-需要版本1.5.4。请参 [阅AppMeasurement for Flash、Flex和AIR](https://docs.adobe.com/content/help/en/analytics/implementation/js/migrate-from-hcode.html)。
+需要版本1.5.4。请参 [阅AppMeasurement for](https://docs.adobe.com/content/help/zh-Hans/analytics/implementation/js/migrate-from-hcode.html)Flash、Flex和AIR。
 
 **Mobile SDK**
 
@@ -60,12 +63,12 @@ source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
 * Android 版本 4.8.3.
 * iOS 版本 4.8.5.
 
-Your SDK code must be enabled for the [!DNL Experience Cloud] ID service. Enable and download the latest SDK code for each app in your [Adobe Mobile Services](https://mobilemarketing.adobe.com/) account. See [Configure SDK Visitor ID Service Options](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/t-config-visitor.html).
+Your SDK code must be enabled for the [!DNL Experience Cloud] ID service. Enable and download the latest SDK code for each app in your [Adobe Mobile Services](https://mobilemarketing.adobe.com/) account. See [Configure SDK Visitor ID Service Options](https://docs.adobe.com/content/help/zh-Hans/mobile-services/using/manage-app-settings-ug/configuring-app/t-config-visitor.html).
 
 对于每个SDK，请使用适 `visitorSyncIdentifier` 合您需求的适当方法。 请参阅：
 
-* [Android Experience Cloud ID服务方法](https://docs.adobe.com/content/help/en/mobile-services/android/experience-cloud-android/mcvid.html)
-* [iOS Experience Cloud ID服务方法](https://docs.adobe.com/content/help/en/mobile-services/ios/exp-cloud-ios/mcvid.html)
+* [AndroidExperience CloudID服务方法](https://docs.adobe.com/content/help/en/mobile-services/android/experience-cloud-android/mcvid.html)
+* [iOSExperience CloudID服务方法](https://docs.adobe.com/content/help/en/mobile-services/ios/exp-cloud-ios/mcvid.html)
 
 **VisitorAPI.js**
 
