@@ -1,18 +1,21 @@
 ---
-description: “人员”指标是基于Adobe设备图的人员（或设备组）计数。 您可以应用“人员”量度来在访客工作区中跨设备识别分析。
-seo-description: “人员”指标是基于Adobe设备图的人员（或设备组）计数。 您可以应用“人员”量度来在访客工作区中跨设备识别分析。
+description: “人员”指标是基于Adobe设备图的人员（或设备组）计数。 您可以应用“人员”指标来识别Analysis Workspace各设备上的访客。
+seo-description: “人员”指标是基于Adobe设备图的人员（或设备组）计数。 您可以应用“人员”指标来识别Analysis Workspace各设备上的访客。
 seo-title: 人员指标
 title: 人员指标
 uuid: 8e731779-044d-4d31-a19a-f579a9c8c471
 translation-type: tm+mt
 source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
+workflow-type: tm+mt
+source-wordcount: '1408'
+ht-degree: 2%
 
 ---
 
 
 # 人员指标{#people-metric}
 
-“人员”指标是基于Adobe设备图的人员（或设备组）计数。 您可以应用“人员”量度来在访客工作区中跨设备识别分析。
+“人员”指标是基于Adobe设备图的人员（或设备组）计数。 您可以应用“人员”指标来识别Analysis Workspace各设备上的访客。
 
 ## 人员指标先决条件和注意事项 {#section-34551d0435fb4b3cb3fad736b7961541}
 
@@ -26,7 +29,7 @@ source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
  <tbody> 
   <tr> 
    <td colname="col1"> <p>设备协作 </p> </td> 
-   <td colname="col2"> <p> 要使用“人员”指标，请成为Adobe <a href="http://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html" format="html" scope="external"> Experience Cloud Device Co-op的成员</a>。 该合作社可标识个人的多个设备（或Experience Cloud ID）。 Analytics利用此信息从统计角度推断与品牌互动的人数。 该指标精确到5%以内。 </p> <p><b>地区</b>: 设备合作社目前仅在美国和加拿大提供。 因此，在评估“人员”指标时，您应将区段应用于分析，以仅过滤器您的美国和加拿大数据。 </p> <p>每周，设备图表都会计算合作社的新版本，并发布供使用。 周二，系统会收集最新数据并发布图形的更新版本。 然后，Experience Cloud解决方案使用最新版图。 对于Analytics，更改将在周三读取，处理更改通常需要1到2个工作日。 </p> <p> <p>重要：  当图表每周更新时，它会影响过去的人员指标。 换言之，历史人数统计随着时间的推移而发生变化，因为图表会学习和更新。 例如，如果您今天运行的报表上个月对人员进行计数，然后在图形更新后的一周内运行同一报表，则历史人员计数可能会略有变化。 </p> </p> </td> 
+   <td colname="col2"> <p> 要使用“人员”指标，请成为Adobe Experience Cloud设 <a href="http://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html" format="html" scope="external"> 备合作社的成员</a>。 该合作社标识个人的多个设备(或Experience CloudID)。 Analytics利用此信息从统计角度推断与品牌互动的人数。 该指标精确到5%以内。 </p> <p><b>地区</b>:设备合作社目前仅在美国和加拿大提供。 因此，在评估“人员”指标时，您应将区段应用于分析，以仅过滤器您的美国和加拿大数据。 </p> <p>每周，设备图表都会计算合作社的新版本，并发布供使用。 周二，系统会收集最新数据并发布图形的更新版本。 Experience Cloud解决方案随后使用最新版的图形。 对于Analytics，更改将在周三读取，处理更改通常需要1到2个工作日。 </p> <p> <p>重要： 当图表每周更新时，它会影响过去的人员指标。 换言之，历史人数统计随着时间的推移而发生变化，因为图表会学习和更新。 例如，如果您今天运行的报表上个月对人员进行计数，然后在图形更新后的一周内运行同一报表，则历史人员计数可能会略有变化。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 度量权限 </td> 
@@ -38,11 +41,11 @@ source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
   </tr> 
   <tr> 
    <td colname="col1"> <p>分析项目／工具 </p> </td> 
-   <td colname="col2"> <p>在分析工作区 <span class="wintitle"> 、临时</span>分析、Report Builder <span class="wintitle"> ，以及通过API使</span><span class="wintitle"></span>用人员量度。 您可以随时随地使用唯一访客量度，包括计算量度。 </p> <p>例如，创建一个按人计收的指标来替换按唯一访客的收入。 </p> <p>可 <a href="https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html" format="html" scope="external"> 以使用“人员</a> ”项目模板开始在分析工作区中使用“人员”量度。 </p> </td> 
+   <td colname="col2"> <p>使用Analysis Workspace、 <span class="wintitle"> Ad Hoc Analysis</span>、 <span class="wintitle"> Report Builder</span>中的 <span class="wintitle"> “人</span>员”指标，并通过API使用。 您可以随时随地使用唯一访客量度，包括计算量度。 </p> <p>例如，创建一个按人计收的指标来替换按唯一访客的收入。 </p> <p>可 <a href="https://docs.adobe.com/content/help/zh-Hans/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html" format="html" scope="external"> 以使用Analysis Workspace</a> “人员”量度开始使用“人员”项目模板。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>打开机器人规则 </p> </td> 
-   <td colname="col2"> <p>Adobe建议您打开机器 <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-rules.html" format="html" scope="external"> 人规则</a>，尤其是在使用“人员”度量时。 </p> <p>当机器人爬网时，它会人为增加您的“唯一”访客数。 从报表包中删除两个流量可以更准确地衡量数字财产的活动，无论是“唯一访客”还是“人员”。 </p> <p>要执行此操作，请导航到 <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suite</span>。 Select the correct report suite, and then go to <span class="uicontrol"> Edit Settings</span> &gt; <span class="uicontrol"> General</span> &gt; <span class="uicontrol"> Bot Rules</span>. </p> </td> 
+   <td colname="col2"> <p>Adobe建议您打开机 <a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-rules.html" format="html" scope="external"> 器规则</a>，尤其是在使用“人员”度量时。 </p> <p>当机器人爬网时，它会人为增加您的“唯一”访客数。 从报表包中删除两个流量可以更准确地衡量数字财产的活动，无论是“唯一访客”还是“人员”。 </p> <p>要执行此操作，请导航到 <span class="uicontrol"> Analytics</span> &gt; <span class="uicontrol"> Admin</span> &gt; <span class="uicontrol"> Report Suite</span>。 Select the correct report suite, and then go to <span class="uicontrol"> Edit Settings</span> &gt; <span class="uicontrol"> General</span> &gt; <span class="uicontrol"> Bot Rules</span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>细分注意事项 </p> </td> 
@@ -65,7 +68,7 @@ source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
 
 **提高报表的准确性**
 
-“人员”量度使您能够将多个设备视为一个实体。 以下分析工作区项目显示了独特访客报告和人员报告之间更高的准确性：
+“人员”量度使您能够将多个设备视为一个实体。 以下Analysis Workspace项目显示了独特访客报告与人员报告之间更准确的对比：
 
 ![](assets/people_report.png)
 
@@ -120,7 +123,7 @@ source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
 
 堆叠区段会创建一个表示区段组合的新区段。 无论您何时：
 
-* 在分析工作区中，将区段放在另一个区段的顶部。 (这些组件会使用运算符自 *`And`* 动连接。)
+* 将一个区段置于Analysis Workspace的另一个区段之上。 (这些组件会使用运算符自 *`And`* 动连接。)
 * 应用包含运算符的单个 *`And`* 段。
 * 在项目级别和表级别应用区段。
 * 将虚拟报告套件与另一个区段一起使用。
@@ -138,19 +141,19 @@ source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
 
 ## 设备类型 {#section-8ab378c84ff34574b9c20fecb3848a86}
 
-当您的报表包包含来自多个设备类型的数据时，设备合作社和人员指标在Adobe Analytics中的作用最佳。 例如，将Web和应用程序数据合并到同一报告套件中，可使“人员”指标更强大、更有效。 数据中的设备交叉越多，将多个唯一访客组合为一个人的可能性就越大。
+当您的报表包包含来自多种设备类型的数据时，设备合作社和人员指标在Adobe Analytics的效果最佳。 例如，将Web和应用程序数据合并到同一报告套件中，可使“人员”指标更强大、更有效。 数据中的设备交叉越多，将多个唯一访客组合为一个人的可能性就越大。
 
 ![](assets/people-device-types.png)
 
 ## Experience Cloud ID Service Coverage {#section-bbf0098cac2e467289e7a644a1dea05c}
 
-设备合作计划要求您的数字属性必须使用Experience Cloud ID(MCID)服务进行检测。 如果报表包中的访客包含大量没有MCID的数据，则设备合作社和人员指标的有效性会降低。
+设备合作社要求您的数字属性必须使用Experience CloudID(MCID)服务进行检测。 如果报表包中的访客包含大量没有MCID的数据，则设备合作社和人员指标的有效性会降低。
 
 <!--
 mcdc-people-metric-apply.xml
 -->
 
-在分析工作区中，创 [建一个](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)项目，然后将度量 **[!UICONTROL People]** 拖动到项目表中：
+在Analysis Workspace，创 [建项目](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)，然后将 **[!UICONTROL People]** 度量拖动到项目表：
 
 ![](assets/people-metric.png)
 
