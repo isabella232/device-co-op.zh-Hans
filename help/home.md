@@ -1,16 +1,19 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Adobe Experience Cloud Device Co-op文档
-title: Adobe Experience Cloud Device Co-op文档
+seo-title: Adobe Experience Cloud设备合作社文档
+title: Adobe Experience Cloud设备合作社文档
 uuid: ec951e20-8736-4d42-b5e5-3e9abfc6820d
 translation-type: tm+mt
 source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
+workflow-type: tm+mt
+source-wordcount: '148'
+ht-degree: 44%
 
 ---
 
 
-# Adobe Experience Cloud Device Co-op文档{#adobe-experience-cloud-device-co-op-documentation}
+# Adobe Experience Cloud设备合作社文档{#adobe-experience-cloud-device-co-op-documentation}
 
 该协 [!DNL Adobe Experience Cloud][!DNL Device Co-op] 作社是一个数字合作社，参与该合作的客户共享设备链接信息。 处理 [!DNL Experience Cloud] 此数 [!DNL Device Co-op] 据以形成设备群集。 这些群集表示由未知人员使用的一组设备。 这些 [!DNL Device Co-op] 群集在成员间共享，帮助他们为客户提供有价值且一致的跨设备体验。
 
