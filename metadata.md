@@ -1,21 +1,21 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: core-services
 solution: Experience Cloud Services
-type: Documentation
+type: 文档
 solution-title: 学习和支持
-solution-hub-url: https://helpx.adobe.com/cn/support/experience-cloud/core-services.html
+solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: 快速入门
 getting-started-url: https://helpx.adobe.com/cn/experience-cloud-core-services/get-started.html
 tutorials-title: 教程
-tutorials-url: https://helpx.adobe.com/cn/experience-cloud/tutorials.html
+tutorials-url: https://helpx.adobe.com/experience-cloud/tutorials.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/device-co-op.zh-Hans
 index: true
 translation-type: tm+mt
-source-git-commit: 187e2414f1211c94a75329bf111b9934230edd3b
+source-git-commit: edb9233d29d46d7d559a513bbdaa81fa86e77418
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '169'
 ht-degree: 97%
 
 ---
