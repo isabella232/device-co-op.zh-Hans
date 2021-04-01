@@ -1,14 +1,14 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: device co-op
 audience: end-user
 user-guide-title: Device Co-op 指南
 user-guide-description: Adobe Experience Cloud 设备合作社是一个数字合作社，参与该合作社的客户可共享设备关联信息。此信息可帮助他们为客户提供有价值且一致的跨设备体验。
 translation-type: tm+mt
-source-git-commit: aa27b2b894b806510350c5d69f3f50b5476ccb48
+source-git-commit: edb9233d29d46d7d559a513bbdaa81fa86e77418
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 31%
+ht-degree: 33%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 31%
    + [未知设备](processes/unknown-device.md)
 + Experience Cloud解决方案中的设备协作数据{#data}
    + [Experience Cloud解决方案中的设备合作数据](other-solutions/other-solutions.md)
-   + [人员量度](other-solutions/people.md)
+   + [人员指标](other-solutions/people.md)
    + [Audience Manager-用户档案链接](other-solutions/proflie-link.md)
    + [目标- A/B测试、多变量测试和体验定位](other-solutions/target.md)
 + [消费者选择退出工具、隐私和设备图](privacy.md)
