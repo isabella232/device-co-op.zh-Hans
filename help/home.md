@@ -1,21 +1,19 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Adobe Experience Cloud设备合作社文档
-title: Adobe Experience Cloud设备合作社文档
+description: Adobe Experience Cloud Device Co-op文档
+title: Adobe Experience Cloud Device Co-op文档
 uuid: ec951e20-8736-4d42-b5e5-3e9abfc6820d
+exl-id: 6fab66de-127c-4267-9e55-4e3b74881b10
 translation-type: tm+mt
-source-git-commit: 822882d4f9bb9eed7cf116597b62d07bbe94376c
+source-git-commit: bbb8feec60964862a58af354e2678509537e2cc5
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 44%
+source-wordcount: '146'
+ht-degree: 45%
 
 ---
 
+# Adobe Experience Cloud设备协作文档{#adobe-experience-cloud-device-co-op-documentation}
 
-# Adobe Experience Cloud设备合作社文档{#adobe-experience-cloud-device-co-op-documentation}
-
-该协 [!DNL Adobe Experience Cloud][!DNL Device Co-op] 作社是一个数字合作社，参与该合作的客户共享设备链接信息。 处理 [!DNL Experience Cloud] 此数 [!DNL Device Co-op] 据以形成设备群集。 这些群集表示由未知人员使用的一组设备。 这些 [!DNL Device Co-op] 群集在成员间共享，帮助他们为客户提供有价值且一致的跨设备体验。
+[!DNL Adobe Experience Cloud] [!DNL Device Co-op]是一个数字合作社，参与该计划的客户共享设备链接信息。 [!DNL Experience Cloud] [!DNL Device Co-op]处理此数据以形成设备群集。 这些群集表示由未知人员使用的一组设备。 [!DNL Device Co-op]成员之间共享这些群集，这有助于他们为客户提供有价值且一致的跨设备体验。
 
 <!-- <a id="section_535A849B2BF14221BD78C968CC02732D"></a> -->
 
@@ -31,7 +29,7 @@ ht-degree: 44%
    <td colname="col2"> <p> <b>发行说明</b> </p> 
     <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
      <li id="li_09C1CD15823E4AD7856CE40BE848E03F">有关新增功能和修复，请参阅最新的 <a href="https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 发行说明</a>。 </li> 
-     <li id="li_EA594E939ED14D7780178DEA8E1AED64">See the <a href="https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html" format="https" scope="external"> previous release notes links</a> for older announcements. </li> 
+     <li id="li_EA594E939ED14D7780178DEA8E1AED64">有关旧版公告，请参阅<a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external">以前的发行说明链接</a>。 </li> 
     </ul> <p> <b>Experience Cloud 资源</b> </p> 
     <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"> <a href="http://www.adobe.com/cn/marketing-cloud.html" scope="external" format="http"> Adobe Experience Cloud</a> </li> 
@@ -46,4 +44,3 @@ ht-degree: 44%
 <p><b>Announcements</b> </p>
 <p>Take a moment to review the <a href="about/requirements.md#concept-31d3d165d22546afbedf023d32ad3a43" format="dita" scope="local"> membership requirements</a> or <a href="https://marketing-stage.adobe.com/resources/help/en_US/mcdc/downloads/what_to_expect.pdf" format="https" scope="external"> download the information sheet</a> if you want participate or to learn more about the <span class="wintitle"> Device Co-op</span>. </p>
 -->
-
