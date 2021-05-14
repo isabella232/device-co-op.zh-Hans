@@ -4,11 +4,10 @@ product: device co-op
 audience: end-user
 user-guide-title: Device Co-op 指南
 user-guide-description: Adobe Experience Cloud 设备合作社是一个数字合作社，参与该合作社的客户可共享设备关联信息。此信息可帮助他们为客户提供有价值且一致的跨设备体验。
-translation-type: tm+mt
-source-git-commit: edb9233d29d46d7d559a513bbdaa81fa86e77418
+source-git-commit: e7a53a4892a8769fc178f5f3f2b82201589177b2
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 33%
+source-wordcount: '123'
+ht-degree: 32%
 
 ---
 
@@ -17,6 +16,7 @@ ht-degree: 33%
 
 + [Adobe Experience Cloud Device Co-op文档](home.md)
 + 关于设备协作{#about}
+   + [生命周期终止公告](about/device-co-op-eol.md)
    + [概述](about/overview.md)
    + [会员资格要求](about/requirements.md)
 + 关于设备图{#device-graph}
