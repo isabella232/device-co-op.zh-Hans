@@ -1,9 +1,9 @@
 ---
 keywords: Adobe Experience Cloud;Adobe Experience Cloud；设备协作；设备协作；生命周期终止
-solution: Adobe Experience Cloud
 title: 设备协作生命周期终止常见问题解答
 description: 了解设备协作的生命周期终止计划。
-source-git-commit: b9e21ba2f749b7a4ad69c122e2273b7f3309da58
+exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
+source-git-commit: c19e8425d5d6c2498186c19929907d2ee5327b31
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # 设备协作生命周期终止常见问题解答
 
-本文档对有关Adobe Experience Cloud设备协作生命周期终止(EOL)计划的常见问题解答进行了解答。 此计划生效后，Adobe将在[Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)和[优先产品更新](https://www.adobe.com/cn/subscription/priority-product-update.html)中提供高级通知。
+本文档对有关Adobe Experience Cloud设备协作生命周期终止(EOL)计划的常见问题解答进行了解答。 此计划生效后，Adobe将在[Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans)和[优先产品更新](https://www.adobe.com/cn/subscription/priority-product-update.html)中提供高级通知。
 
 ## 常见问题解答
 
