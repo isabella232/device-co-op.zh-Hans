@@ -3,9 +3,9 @@ keywords: Adobe Experience Cloud;Adobe Experience Cloud；设备协作；设备�
 title: 设备协作生命周期终止常见问题解答
 description: 了解设备协作的生命周期终止计划。
 exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
-source-git-commit: 8896718ce5fec25cb72f7a2a5ccb4573433e0bb1
+source-git-commit: 952fe1bc73efd99812f3f2950b009ff8dcd83ae1
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1053'
 ht-degree: 4%
 
 ---
@@ -26,6 +26,10 @@ AdTech环境即将发生的更改预计会导致 [!DNL Device Co-op] 成为未�
 
 注册即将结束，以防由于即将发生的关于第三方Cookie的行业变化而无法满足客户期望的风险。 [!DNL Device Co-op] 需要几个月时间才能准备好，还需要几个月时间才能从服务中获取价值。 此时，任何进一步注册都可能会导致品牌无法充分体验 [!DNL Device Co-op].
 
+## 2022年7月，Google宣布将在Chrome上弃用第三方Cookie的时间推迟到2024年。 这会影响 [!DNL Device Co-op] EOL计划？
+
+不，Adobe [!DNL Device Co-op] EOL计划将继续保持不变，不会延期。
+
 ## 新客户能注册吗？
 
 自2021年6月11日起，Adobe将不再接受 [!DNL Device Co-op].
@@ -42,7 +46,7 @@ AdTech环境即将发生的更改预计会导致 [!DNL Device Co-op] 成为未�
 
 以下应用程序将受 [!DNL Device Co-op] 生命周期终止程序：
 
-- [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hans)
+- [Adobe Analytics](https://experienceleague.adobe.com/docs/analytics.html?lang=en)
 - [Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/aam-overview.html?lang=en)
 - [Adobe Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud.html?lang=en)
 - [Adobe Target](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en)
