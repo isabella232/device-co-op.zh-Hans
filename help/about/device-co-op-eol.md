@@ -3,9 +3,9 @@ keywords: Adobe Experience Cloud;Adobe Experience Cloud；设备协作；设备�
 title: 设备协作生命周期终止常见问题解答
 description: 了解设备协作的生命周期终止计划。
 exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
-source-git-commit: 952fe1bc73efd99812f3f2950b009ff8dcd83ae1
+source-git-commit: ab45f8f54046a31e60223a36c374dc99dc968d7c
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1079'
 ht-degree: 4%
 
 ---
@@ -40,7 +40,7 @@ AdTech环境即将发生的更改预计会导致 [!DNL Device Co-op] 成为未�
 
 ## 确切的结束日期是什么 [!DNL Device Co-op] 程序？
 
-的 [!DNL Device Co-op] 计划将于2022年结束。 具体时间和日期取决于 [!DNL Google] 开始阻止第三方Cookie。
+的 [!DNL Device Co-op] 计划将于2022年结束。 具体时间和日期取决于 [!DNL Google] 开始阻止第三方Cookie。 退役工作预计于2022年9月开始。
 
 ## 设备协作终止后，哪些应用程序将受到影响？
 
@@ -59,7 +59,7 @@ AdTech环境即将发生的更改预计会导致 [!DNL Device Co-op] 成为未�
 
 ### [!DNL Audience Manager]
 
-[!DNL Audience Manager] 维护与第三方设备图合作伙伴的集成，包括 [!DNL LiveRamp] 和 [!DNL Tapad]，但是您必须直接与图形合作伙伴建立商业关系，以便利用 [!DNL Audience Manager].
+[!DNL Audience Manager] 维护与第三方设备图合作伙伴的集成，包括 [!DNL LiveRamp] 和 [!DNL Tapad]，但是您必须直接与图形合作伙伴建立商业关系，以便利用 [!DNL Audience Manager]. 所有客户都应更新任何协作配置文件合并规则，以使用 [!DNL Device Co-op.]
 
 ### [!DNL Real-time Customer Data Platform]
 
