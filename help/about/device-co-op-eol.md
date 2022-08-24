@@ -3,9 +3,9 @@ keywords: Adobe Experience Cloud;Adobe Experience Cloud；设备协作；设备�
 title: 设备协作生命周期终止常见问题解答
 description: 了解设备协作的生命周期终止计划。
 exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
-source-git-commit: ab45f8f54046a31e60223a36c374dc99dc968d7c
+source-git-commit: 6cb8efa9090d414e1f75c78d40d1c684d04342f9
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1106'
 ht-degree: 4%
 
 ---
@@ -13,6 +13,8 @@ ht-degree: 4%
 # 设备协作生命周期终止常见问题解答
 
 本文档对有关Adobe Experience Cloud设备协作生命周期终止(EOL)计划的常见问题解答进行了解答。 此计划生效后，Adobe将在 [Experience Cloud发行说明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hans) 和 [产品更新早知道](https://www.adobe.com/cn/subscription/priority-product-update.html).
+
+设备协作是一项计划，它允许参与者通过合作更好地识别跨多个数字接触点的用户，同时确保最高级别的隐私和透明度。
 
 ## 常见问题解答
 
@@ -75,7 +77,7 @@ AdTech环境即将发生的更改预计会导致 [!DNL Device Co-op] 成为未�
 
 ### Adobe Advertising Cloud
 
-[!DNL Advertising Cloud] 客户将无法再使用 [!DNL Device Co-op] 用于跨设备受众定位和测量。 使用 [!DNL Advertising Cloud]，您仍然能够利用Adobe [!DNL Device Graph] 与 [!DNL LiveRamp] 继续履行这些职能， [!DNL LiveRamp’s] 能力和规模。 您必须允许您的营销活动使用 [!DNL Device Co-op] 结束，然后切换到 [!DNL LiveRamp] 设备图提供商，或不再利用基于人员的定位。
+[!DNL Advertising Cloud] 客户将无法再使用 [!DNL Device Co-op] 用于跨设备受众定位和测量。 使用 [!DNL Advertising Cloud]，您仍然能够利用Adobe [!DNL Device Graph] 与 [!DNL LiveRamp] 继续履行这些职能， [!DNL LiveRamp's] 能力和规模。 您必须允许您的营销活动使用 [!DNL Device Co-op] 结束，然后切换到 [!DNL LiveRamp] 设备图提供商，或不再利用基于人员的定位。
 
 ## 哪些现有功能和实施可以帮助我为无Cookie的未来做好准备？
 
