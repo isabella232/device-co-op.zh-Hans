@@ -2,8 +2,7 @@
 keywords: Adobe Experience Cloud;Adobe Experience Cloud；设备协作；设备协作；生命周期终止
 title: 设备协作生命周期终止常见问题解答
 description: 了解设备协作的生命周期终止计划。
-exl-id: 015ba95c-0c8d-415e-969c-b8670494de98
-source-git-commit: 6cb8efa9090d414e1f75c78d40d1c684d04342f9
+source-git-commit: 8c372964824a33f31a5a3b11a38ebe1a49df35ea
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 4%
