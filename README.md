@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # 已存档设备协作
 
-参见已停用。en
+请参阅discontained.en

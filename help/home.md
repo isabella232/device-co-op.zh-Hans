@@ -3,7 +3,6 @@ description: Adobe Experience Cloud Device Co-op文档
 title: Adobe Experience Cloud Device Co-op文档
 uuid: ec951e20-8736-4d42-b5e5-3e9abfc6820d
 exl-id: 6fab66de-127c-4267-9e55-4e3b74881b10
-translation-type: tm+mt
 source-git-commit: bbb8feec60964862a58af354e2678509537e2cc5
 workflow-type: tm+mt
 source-wordcount: '146'
@@ -11,9 +10,9 @@ ht-degree: 45%
 
 ---
 
-# Adobe Experience Cloud设备协作文档{#adobe-experience-cloud-device-co-op-documentation}
+# Adobe Experience Cloud Device Co-op文档{#adobe-experience-cloud-device-co-op-documentation}
 
-[!DNL Adobe Experience Cloud] [!DNL Device Co-op]是一个数字合作社，参与该计划的客户共享设备链接信息。 [!DNL Experience Cloud] [!DNL Device Co-op]处理此数据以形成设备群集。 这些群集表示由未知人员使用的一组设备。 [!DNL Device Co-op]成员之间共享这些群集，这有助于他们为客户提供有价值且一致的跨设备体验。
+此 [!DNL Adobe Experience Cloud] [!DNL Device Co-op] 是一个数字合作社，参与的客户可在此共享设备链接信息。 此 [!DNL Experience Cloud] [!DNL Device Co-op] 处理此数据以形成设备群集。 这些群集表示由未知人员使用的一组设备。 此 [!DNL Device Co-op] 在其成员之间共享这些群集，这有助于他们为其客户提供有价值且一致的跨设备体验。
 
 <!-- <a id="section_535A849B2BF14221BD78C968CC02732D"></a> -->
 
@@ -29,7 +28,7 @@ ht-degree: 45%
    <td colname="col2"> <p> <b>发行说明</b> </p> 
     <ul id="ul_713F3E9DF0F84FE5981AC63D05948864"> 
      <li id="li_09C1CD15823E4AD7856CE40BE848E03F">有关新增功能和修复，请参阅最新的 <a href="https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html" format="https" scope="external">Experience Cloud 发行说明</a>。 </li> 
-     <li id="li_EA594E939ED14D7780178DEA8E1AED64">有关旧版公告，请参阅<a href="https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html" format="https" scope="external">以前的发行说明链接</a>。 </li> 
+     <li id="li_EA594E939ED14D7780178DEA8E1AED64">请参阅 <a href="https://docs.adobe.com/content/help/zh-Hans/release-notes/experience-cloud/current.html" format="https" scope="external"> 以前的发行说明链接</a> 旧公告。 </li> 
     </ul> <p> <b>Experience Cloud 资源</b> </p> 
     <ul id="ul_E30EC96BDC624B5591F0470D430B7F41"> 
      <li id="li_F3A5CCFAE0F247CEB41A03CA8E03106B"> <a href="http://www.adobe.com/cn/marketing-cloud.html" scope="external" format="http"> Adobe Experience Cloud</a> </li> 
